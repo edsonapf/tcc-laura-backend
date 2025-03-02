@@ -1,0 +1,35 @@
+services:
+  db:
+    container_name: db_tcc_laura
+    image: postgres
+    environment:
+      - POSTGRES_USER=dev
+      - POSTGRES_PASSWORD=dev
+      - POSTGRES_DB=tcc_laura
+    ports:
+      - "5433:5432"
+    # networks:
+    #   - lauranet
+    restart: always
+#   app:
+#     container_name: app_tcc_laura
+#     build: .
+#     entrypoint: dockerize -wait tcp://db:5432 -timeout 20s docker-entrypoint.sh
+#     command: yarn dev
+#     volumes:
+#       - ./:/app
+#     environment:
+#       - PORT=3000
+#     ports:
+#       - "3000:3000"
+#     networks:
+#       - lauranet
+#     depends_on:
+#       - db
+#     tty: true
+
+# networks:
+#   lauranet:
+#     driver: bridge
+
+    

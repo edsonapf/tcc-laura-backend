@@ -1,0 +1,356 @@
+[
+  {
+    "stimulus": [
+      {
+        "type": "HtmlKeyboardResponsePlugin",
+        "stimulus": "Luiz",
+        "choices": " "
+      },
+      {
+        "type": "HtmlKeyboardResponsePlugin",
+        "stimulus": "trabalha",
+        "choices": " "
+      },
+      {
+        "type": "HtmlKeyboardResponsePlugin",
+        "stimulus": "na cidade",
+        "choices": " "
+      },
+      {
+        "type": "HtmlKeyboardResponsePlugin",
+        "stimulus": "onde",
+        "choices": " "
+      },
+      {
+        "type": "HtmlKeyboardResponsePlugin",
+        "stimulus": "vivem",
+        "choices": " "
+      },
+      {
+        "type": "HtmlKeyboardResponsePlugin",
+        "stimulus": "seus avós",
+        "choices": " "
+      }
+    ],
+    "fake": false,
+    "phrase": "Luiz trabalha na cidade onde vivem seus avós"
+  },
+  {
+    "stimulus": [
+      {
+        "type": "HtmlKeyboardResponsePlugin",
+        "stimulus": "Carol",
+        "choices": " "
+      },
+      {
+        "type": "HtmlKeyboardResponsePlugin",
+        "stimulus": "fez",
+        "choices": " "
+      },
+      {
+        "type": "HtmlKeyboardResponsePlugin",
+        "stimulus": "sua festa",
+        "choices": " "
+      },
+      {
+        "type": "HtmlKeyboardResponsePlugin",
+        "stimulus": "onde",
+        "choices": " "
+      },
+      {
+        "type": "HtmlKeyboardResponsePlugin",
+        "stimulus": "moram",
+        "choices": " "
+      },
+      {
+        "type": "HtmlKeyboardResponsePlugin",
+        "stimulus": "seus pais",
+        "choices": " "
+      }
+    ],
+    "fake": false,
+    "phrase": "Carol fez sua festa onde moram seus pais"
+  },
+  {
+    "stimulus": [
+      {
+        "type": "HtmlKeyboardResponsePlugin",
+        "stimulus": "Pedro",
+        "choices": " "
+      },
+      {
+        "type": "HtmlKeyboardResponsePlugin",
+        "stimulus": "fez",
+        "choices": " "
+      },
+      {
+        "type": "HtmlKeyboardResponsePlugin",
+        "stimulus": "sua tarefa",
+        "choices": " "
+      },
+      {
+        "type": "HtmlKeyboardResponsePlugin",
+        "stimulus": "onde",
+        "choices": " "
+      },
+      {
+        "type": "HtmlKeyboardResponsePlugin",
+        "stimulus": "pediu",
+        "choices": " "
+      },
+      {
+        "type": "HtmlKeyboardResponsePlugin",
+        "stimulus": "ajuda a Mika",
+        "choices": " "
+      }
+    ],
+    "fake": false,
+    "phrase": "Pedro fez sua tarefa onde pediu ajuda a Mika"
+  },
+  {
+    "stimulus": [
+      {
+        "type": "HtmlKeyboardResponsePlugin",
+        "stimulus": "Minha",
+        "choices": " "
+      },
+      {
+        "type": "HtmlKeyboardResponsePlugin",
+        "stimulus": "mãe",
+        "choices": " "
+      },
+      { "type": "HtmlKeyboardResponsePlugin", "stimulus": "é", "choices": " " },
+      {
+        "type": "HtmlKeyboardResponsePlugin",
+        "stimulus": "muito",
+        "choices": " "
+      },
+      {
+        "type": "HtmlKeyboardResponsePlugin",
+        "stimulus": "bonita",
+        "choices": " "
+      }
+    ],
+    "fake": true,
+    "phrase": "Minha mãe é muito bonita"
+  },
+  {
+    "stimulus": [
+      {
+        "type": "HtmlKeyboardResponsePlugin",
+        "stimulus": "Minha",
+        "choices": " "
+      },
+      {
+        "type": "HtmlKeyboardResponsePlugin",
+        "stimulus": "colega",
+        "choices": " "
+      },
+      {
+        "type": "HtmlKeyboardResponsePlugin",
+        "stimulus": "de sala",
+        "choices": " "
+      },
+      { "type": "HtmlKeyboardResponsePlugin", "stimulus": "é", "choices": " " },
+      {
+        "type": "HtmlKeyboardResponsePlugin",
+        "stimulus": "muito",
+        "choices": " "
+      },
+      {
+        "type": "HtmlKeyboardResponsePlugin",
+        "stimulus": "inteligente",
+        "choices": " "
+      }
+    ],
+    "fake": true,
+    "phrase": "Minha colega de sala é muito inteligente"
+  },
+  {
+    "stimulus": [
+      {
+        "type": "HtmlKeyboardResponsePlugin",
+        "stimulus": "Camila",
+        "choices": " "
+      },
+      {
+        "type": "HtmlKeyboardResponsePlugin",
+        "stimulus": "saiu",
+        "choices": " "
+      },
+      {
+        "type": "HtmlKeyboardResponsePlugin",
+        "stimulus": "de Cuba",
+        "choices": " "
+      },
+      {
+        "type": "HtmlKeyboardResponsePlugin",
+        "stimulus": "onde",
+        "choices": " "
+      },
+      {
+        "type": "HtmlKeyboardResponsePlugin",
+        "stimulus": "viveu",
+        "choices": " "
+      },
+      {
+        "type": "HtmlKeyboardResponsePlugin",
+        "stimulus": "sete anos de vida",
+        "choices": " "
+      }
+    ],
+    "fake": false,
+    "phrase": "Camila saiu de Cuba onde viveu sete anos de vida"
+  },
+  {
+    "stimulus": [
+      {
+        "type": "HtmlKeyboardResponsePlugin",
+        "stimulus": "O professor",
+        "choices": " "
+      },
+      {
+        "type": "HtmlKeyboardResponsePlugin",
+        "stimulus": "de Sintaxe",
+        "choices": " "
+      },
+      { "type": "HtmlKeyboardResponsePlugin", "stimulus": "é", "choices": " " },
+      {
+        "type": "HtmlKeyboardResponsePlugin",
+        "stimulus": "legal",
+        "choices": " "
+      }
+    ],
+    "fake": true,
+    "phrase": "O professor de Sintaxe é legal"
+  },
+  {
+    "stimulus": [
+      {
+        "type": "HtmlKeyboardResponsePlugin",
+        "stimulus": "Ele",
+        "choices": " "
+      },
+      {
+        "type": "HtmlKeyboardResponsePlugin",
+        "stimulus": "foi",
+        "choices": " "
+      },
+      {
+        "type": "HtmlKeyboardResponsePlugin",
+        "stimulus": "para casa",
+        "choices": " "
+      },
+      {
+        "type": "HtmlKeyboardResponsePlugin",
+        "stimulus": "onde",
+        "choices": " "
+      },
+      {
+        "type": "HtmlKeyboardResponsePlugin",
+        "stimulus": "mora",
+        "choices": " "
+      },
+      {
+        "type": "HtmlKeyboardResponsePlugin",
+        "stimulus": "com sua família",
+        "choices": " "
+      }
+    ],
+    "fake": false,
+    "phrase": "Ele foi para casa onde mora com sua família"
+  },
+  {
+    "stimulus": [
+      {
+        "type": "HtmlKeyboardResponsePlugin",
+        "stimulus": "Maria",
+        "choices": " "
+      },
+      {
+        "type": "HtmlKeyboardResponsePlugin",
+        "stimulus": "teve",
+        "choices": " "
+      },
+      {
+        "type": "HtmlKeyboardResponsePlugin",
+        "stimulus": "uma infância",
+        "choices": " "
+      },
+      {
+        "type": "HtmlKeyboardResponsePlugin",
+        "stimulus": "onde",
+        "choices": " "
+      },
+      {
+        "type": "HtmlKeyboardResponsePlugin",
+        "stimulus": "foi",
+        "choices": " "
+      },
+      {
+        "type": "HtmlKeyboardResponsePlugin",
+        "stimulus": "muito feliz",
+        "choices": " "
+      }
+    ],
+    "fake": false,
+    "phrase": "Maria teve uma infância onde foi muito feliz"
+  },
+  {
+    "stimulus": [
+      {
+        "type": "HtmlKeyboardResponsePlugin",
+        "stimulus": "Fui",
+        "choices": " "
+      },
+      {
+        "type": "HtmlKeyboardResponsePlugin",
+        "stimulus": "ao cinema",
+        "choices": " "
+      },
+      {
+        "type": "HtmlKeyboardResponsePlugin",
+        "stimulus": "ontem",
+        "choices": " "
+      },
+      {
+        "type": "HtmlKeyboardResponsePlugin",
+        "stimulus": "com",
+        "choices": " "
+      },
+      {
+        "type": "HtmlKeyboardResponsePlugin",
+        "stimulus": "meu namorado",
+        "choices": " "
+      }
+    ],
+    "fake": true,
+    "phrase": "Fui ao cinema ontem com meu namorado"
+  },
+  {
+    "stimulus": [
+      {
+        "type": "HtmlKeyboardResponsePlugin",
+        "stimulus": "Eu",
+        "choices": " "
+      },
+      {
+        "type": "HtmlKeyboardResponsePlugin",
+        "stimulus": "adoro",
+        "choices": " "
+      },
+      {
+        "type": "HtmlKeyboardResponsePlugin",
+        "stimulus": "música",
+        "choices": " "
+      },
+      {
+        "type": "HtmlKeyboardResponsePlugin",
+        "stimulus": "pop",
+        "choices": " "
+      }
+    ],
+    "fake": true,
+    "phrase": "Eu adoro música pop"
+  }
+]
