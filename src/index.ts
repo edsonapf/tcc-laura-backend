@@ -66,7 +66,7 @@ server.post("/experiment", controller.create);
 server.listen(port, () => {
   console.log("Server is running on port " + port);
   if (process.env.NODE_ENV === "production" && process.env.SERVER_URL) {
-    const interval = 5 * 60 * 1000;
+    const interval = 60 * 1000;
     setInterval(() => {
       http.get(process.env.SERVER_URL || "", () => {
         console.log("awake");
