@@ -7,7 +7,6 @@ import ExperimentController from "./controller/experiment";
 import pg from "pg";
 import cors from "cors";
 import fs from "fs";
-import http from "http";
 
 dotenv.config();
 
@@ -65,12 +64,4 @@ server.post("/experiment", controller.create);
 
 server.listen(port, () => {
   console.log("Server is running on port " + port);
-  if (process.env.NODE_ENV === "production" && process.env.SERVER_URL) {
-    const interval = 60 * 1000;
-    setInterval(() => {
-      http.get(process.env.SERVER_URL || "", () => {
-        console.log("awake");
-      });
-    }, interval);
-  }
 });
