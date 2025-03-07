@@ -18,6 +18,7 @@ const dbClient = new pg.Client({
   port: process.env.DB_PORT ? Number(process.env.DB_PORT) : 5433,
   database: process.env.DB_NAME || "tcc_laura",
   host: process.env.DB_HOST || "localhost",
+  ssl: true,
 });
 dbClient.connect();
 
