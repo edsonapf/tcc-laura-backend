@@ -17,3 +17,11 @@ CREATE TABLE trials (
   phrase TEXT NOT NULL,
   user_id INT REFERENCES users (id)
 )
+
+CREATE TABLE questions_responses (
+  id SERIAL PRIMARY KEY,
+  phrase TEXT NOT NULL,
+  time_elapsed INT NOT NULL,
+  correct BOOLEAN NOT NULL,
+  user_id INT REFERENCES users (id)
+)

@@ -15,7 +15,14 @@ export interface Trial {
   phrase: string;
 }
 
+export interface QuestionsResponse {
+  phrase: string;
+  timeElapsed: number;
+  correct: boolean;
+}
+
 export interface CreateExperiment {
   user: User;
   experiment: Trial[];
+  questionsResponses: QuestionsResponse[];
 }
