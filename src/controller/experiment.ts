@@ -7,6 +7,13 @@ export default class ExperimentController {
 
   create = async (req: Request, res: Response) => {
     const { body }: { body: CreateExperiment } = req;
+    const name = body?.user?.name || "EMPTY ";
+    console.log(
+      `INFO - ${Intl.DateTimeFormat("pt-BR", {
+        dateStyle: "short",
+        timeStyle: "medium",
+      }).format(new Date())}: USER (${name})`
+    );
     await this.experimentService.create(body);
     res.send("create experiment");
   };
